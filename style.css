@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+}
+
+.container{
+   width: 25%;
+   min-height: 25vh;
+   margin-top: 15px;
+   border-radius: 25px;
+   border: 1px  solid black;
+   background-color: #fff;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom:5px;
+}
+
+input{
+    width:60%;
+    padding-top:5px;
+    margin-right: 15px;
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid black;
+}
+
+.word{
+    display:flex;
+    justify-content: space-around;
+}
+
+
+.word > button{
+    border: none;
+    background-color: #fff;
+}
+
+button{
+    padding:5px;
+    border-radius: 20px;
+}
+
+.word > button{
+    border:none;
+}
+
+.details,
+.word-example{
+    padding-left: 10px;
+    padding-bottom:10px;
+}
+
